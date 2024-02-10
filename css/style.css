@@ -1,0 +1,105 @@
+@media only screen and (max-width: 100%) {
+    h1 {
+        font-size: 42px;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        color: #ba0c0c;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 20px;
+        color: green;
+        font-weight: bold;
+        text-decoration: underline;
+    
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    header a.current:link, a.current:visited{
+        color: blue;
+        font-weight:bold;
+    }
+    header a:hover {
+        color: #080808;
+        font-weight:bold;
+    }
+    
+    img{
+        width: 100px;
+        height:125px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 10px;
+    
+    }
+    video{
+        width: 100px;
+        height:125px; 
+    }
+    .wrapper{
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        border: 3px dashed green;
+        margin-bottom: 10px;
+    }
+    
+    .grid-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        border: 3px dashed green;
+        justify-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .with_gif{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        margin-bottom: 10px;
+    
+    }
+    
+    .nav_tab{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;  
+        text-align: center;
+    }
+    .nav_tab1{
+        border: 3px solid lightgoldenrodyellow;
+        background-color:lightgoldenrodyellow ;
+    }
+    .nav_tab2{
+        border: 3px solid greenyellow;
+        background-color: greenyellow;
+    }
+    .nav_tab3{
+        border: 3px solid lightblue;
+        background-color:lightblue ;
+    }
+    .nav_tab4{
+        border: 3px solid palegoldenrod;
+        background-color: palegoldenrod ;
+    }
+    
+    .grid_headers{
+        display:grid;
+        grid-template-columns: 1fr;  
+        border:3px solid #ba0c0c
+    }
+    
+    .index_p{
+       text-align: center;
+    }
+}
+
