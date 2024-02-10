@@ -4,8 +4,6 @@
         color: #000000;
         background-color: pink;
         font-size: 18px;
-        margin: 10px;
-        padding:10px;
     }
 
     h1 {
@@ -83,13 +81,15 @@
         margin-bottom: 10px;
 
     }
-
+    nav{
+        margin-top: 15px;
+    }
     nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
         text-align: center;
-        margin-top: 10px;
+        padding:5px;
     }
 
     nav ul li a {
