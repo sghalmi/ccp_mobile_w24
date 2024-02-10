@@ -4,6 +4,8 @@
         color: #000000;
         background-color: pink;
         font-size: 18px;
+        margin: 10px;
+        padding:10px;
     }
 
     h1 {
@@ -87,6 +89,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
         text-align: center;
+        margin-top: 10px;
     }
 
     nav ul li a {
@@ -237,9 +240,4 @@ video{
 
 .index_p{
    text-align: center;
-} 
-ol li{
- list-style-type: style;;
- list-style-position: inside;
- margin-left:10px;
-}*/
+} */
