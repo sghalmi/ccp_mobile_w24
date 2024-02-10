@@ -35,6 +35,7 @@
     a.current:visited {
         color: blue;
         font-weight: bold;
+        text-decoration: underline;
     }
 
     header a:hover {
@@ -81,10 +82,15 @@
 
     }
 
-    .nav_tab {
+    nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
         text-align: center;
+    }
+
+    nav ul li a {
+        text-decoration: none;
     }
 
     .nav_tab1 {
