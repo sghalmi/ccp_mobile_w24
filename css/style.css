@@ -135,7 +135,12 @@
         margin-left:10px;
     }
 }
-
+@media screen and (prefers-reduced-motion: reduce) {
+    .motion_stop {
+        /* Very short durations means JavaScript that relies on events still works */
+        animation: none !important;
+    }
+}
 /* body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #000000;
